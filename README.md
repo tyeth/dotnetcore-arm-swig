@@ -10,7 +10,7 @@
 - **OS**: Ubuntu 16.04.4, xenial
 - **Host**: Ubuntu-VM (Hyper-V on Windoes 10 Pro x64) 
 
-**Build instructions:**
+**Build instructions on Ubuntu-VM:**
 
 1. `cd ~/`
 1. `git clone https://github.com/IvanFarkas/dotnetcore-arm-swig.git`
