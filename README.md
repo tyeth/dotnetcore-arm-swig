@@ -13,8 +13,9 @@
 **Build instructions:**
 
 1. `cd ~/`
-1. `git clone`
+1. `git clone https://github.com/IvanFarkas/dotnetcore-arm-swig.git`
 1. `cd dotnetcore-arm-swig`
+1. `mkdir app`
 1. `# Optional if you have swig 4.0 installed`
 1. `#make swig` 
 1. `make clean`
