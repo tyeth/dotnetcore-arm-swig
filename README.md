@@ -47,7 +47,8 @@
 1. `dotnet publish console.csproj -c Debug -r linux-arm -o app`
 1. `# Copy ~/dotnetcore-arm-swig/ from Ubuntu-VM to DB410c ~/ (I used WinSCP)`
 
-On the  DragonBoard 410c arm64v8 SBC
+**On the  DragonBoard 410c arm64v8 SBC**
+
 1. `cd ~/dotnetcore-arm-swig`
 1. `# Optional if you have swig 4.0 installed`
 1. `#make swig` 
