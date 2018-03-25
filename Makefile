@@ -12,7 +12,7 @@ $(ODIR)/%.o: %.c $(DEPS)
 	$(CC) -c -fpic -o $@ $< $(CFLAGS) -o $@
 
 example: $(OBJ)
-	$(CC) -shared -o $@ $^ $(CFLAGS) -o $(ODIR)/example.so
+	$(CC) -shared -o $@ $^ $(CFLAGS) -o $(ODIR)/libexample.so
 
 .PHONY: swig
 swig:
@@ -20,4 +20,4 @@ swig:
 
 .PHONY: clean
 clean:
-	rm -f $(SWIG_FILES) $(ODIR)/example.o $(ODIR)/example_wrap.o $(ODIR)/example.so
+	rm -f $(SWIG_FILES) $(ODIR)/example.o $(ODIR)/example_wrap.o $(ODIR)/libexample.so
