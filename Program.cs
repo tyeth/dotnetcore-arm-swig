@@ -1,10 +1,4 @@
-﻿/*
-make
-dotnet publish console.csproj -c Debug -r linux-x64 -o app
-app/console
-*/
-
-using System;
+﻿using System;
 using System.Runtime.InteropServices;
 
 namespace console
