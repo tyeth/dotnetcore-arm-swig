@@ -12,7 +12,7 @@ $(ODIR)/%.o: %.c $(DEPS)
 	$(CC) -c -fpic -o $@ $< $(CFLAGS) -o $@
 
 example: $(OBJ)
-	$(CC) -shared -o $@ $^ $(CFLAGS) -o $(ODIR)/libexample.so
+	$(CC) -shared -fpic -o $@ $^ $(CFLAGS) -o $(ODIR)/libexample.so
 
 .PHONY: swig
 swig:
